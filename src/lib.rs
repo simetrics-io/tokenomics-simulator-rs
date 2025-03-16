@@ -144,6 +144,7 @@ pub mod token_builder;
 /// User module.
 /// Is used to apply user related operations for the simulation.
 pub mod user;
+pub mod vesting;
 
 pub use engine::*;
 pub use engine_builder::*;
@@ -152,6 +153,7 @@ pub use report::*;
 pub use token::*;
 pub use token_builder::*;
 pub use user::*;
+pub use vesting::*;
 
 /// Simulation error.
 /// A list of possible errors that can occur during the simulation.
